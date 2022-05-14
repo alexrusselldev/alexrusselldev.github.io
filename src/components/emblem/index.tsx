@@ -5,7 +5,7 @@ import './styles.css'
 export const Emblem = (props: EmblemProps) => {
     const title = props.title || 'alex russell'
     const tagline = Array.from(props.title || 'full stack developer')
-    const className = `tagline ${props.size || 'normal'}`
+    const className = `tagline ${props.size || 'normal'} ${props.className}`
 
     return (
         <div className={className}>
