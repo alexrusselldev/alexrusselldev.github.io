@@ -1,0 +1,34 @@
+.tagline {
+    color: var(--foreground--fg);
+}
+
+.tagline.small {
+    width: fit-content;
+    font-size: 10px;
+}
+
+.tagline.normal {
+    width: fit-content;
+    font-size: 20px;
+}
+
+.tagline.large {
+    width: fit-content;
+    font-size: 40px;
+}
+
+.tagline-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 250%;
+    border-bottom: 1px var(--accent--accent) solid;
+}
+
+p {
+    color: var(--foreground--fg-dark);
+    font-size: 75%;
+}
