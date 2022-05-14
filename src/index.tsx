@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { WIP } from './components/WIP';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -8,6 +9,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <WIP />
   </React.StrictMode>
 );
 

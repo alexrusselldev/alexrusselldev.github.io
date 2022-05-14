@@ -1,3 +1,23 @@
+:root {
+
+  /* Color styles */
+  --accent--accent: #f08700;
+  --accent--accent-dark: #b86800;
+  --accent--accent-light: #ffa733;
+  --foreground--fg-dark: #6c899d;
+  --foreground--fg: #8aa1b1;
+  --foreground--fg-light: #b6c4ce;
+  --background--bg-light: #5a5d72;
+  --background--bg: #3f4150;
+  --background--bg-dark: #24252e;
+}
+
+
+* {
+  /* reset */
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
