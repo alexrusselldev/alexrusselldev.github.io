@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { WIP } from './components/WIP';
+import { WIP } from './layouts/WIP';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
