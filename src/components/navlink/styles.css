@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+}
+
+.navlink {
+    color: var(--foreground--fg);
+    cursor: pointer;
+    transition: border-bottom 0.2s;
+}
+
+.navlink:hover {
+    border-bottom: 1px solid var(--accent--accent);
+}
