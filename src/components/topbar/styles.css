@@ -1,0 +1,17 @@
+.topbar-body {
+    position: fixed;
+    top: 0;
+    height: auto;
+    width: 100%;
+    background-image: linear-gradient(
+        var(--background--bg-dark),
+        var(--background--bg)
+    );
+    padding: 20px;
+}
+
+h1 {
+    width: fit-content;
+    color: var(--foreground--fg);
+    border-bottom: 1px var(--accent--accent-light) solid;
+}
