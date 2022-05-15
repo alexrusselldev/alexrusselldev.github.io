@@ -1,23 +1,23 @@
 :root {
     /* Color styles */
     --accent: #f08700;
-    --accent-rgb: rgb(240, 135, 0);
+    --accent-rgb: 240, 135, 0;
     --accent-dark: #b86800;
-    --accent-dark-rgb: rgb(184, 104, 0);
+    --accent-dark-rgb: 184, 104, 0;
     --accent-light: #ffa733;
-    --accent-light-rgb: rgb(255, 167, 51);
+    --accent-light-rgb: 255, 167, 51;
     --fg: #8aa1b1;
-    --fg-rgb: rgb(138, 161, 177);
+    --fg-rgb: 138, 161, 177;
     --fg-dark: #6c899d;
-    --fg-dark-rgb: rgb(108, 137, 157);
+    --fg-dark-rgb: 108, 137, 157;
     --fg-light: #b6c4ce;
-    --fg-light-rgb: rgb(182, 196, 206);
+    --fg-light-rgb: 182, 196, 206;
     --bg: #3f4150;
-    --bg-rgb: rgb(63, 65, 80);
+    --bg-rgb: 63, 65, 80;
     --bg-dark: #24252e;
-    --bg-dark-rgb: rgb(36, 37, 46);
+    --bg-dark-rgb: 36, 37, 46;
     --bg-light: #5a5d72;
-    --bg-light-rgb: rgb(90, 93, 114);
+    --bg-light-rgb: 90, 93, 114;
 }
 
 * {

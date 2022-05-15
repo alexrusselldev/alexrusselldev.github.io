@@ -1,11 +1,11 @@
 .navlink {
     cursor: pointer;
     transition: border-bottom 0.2s;
-    border-bottom: 1px solid var(--bg);
+    border-bottom: 1px solid rgba(var(--accent-rgb), 0);
 }
 
 .navlink:hover {
-    border-bottom: 1px solid var(--accent);
+    border-bottom: 1px solid rgba(var(--accent-rgb), 1);
 }
 
 .navlink-label {
