@@ -6,7 +6,7 @@ import { myPages } from './data'
 import { generateNavlinks } from './functions'
 
 export const Home = () => {
-    if (!isMobile && process.env.REACT_APP_FORCE_MOBILE === '0') {
+    if (!isMobile) {
         require('./styles.css')
         return (
             <div className="home-container">
