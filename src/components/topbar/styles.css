@@ -1,14 +1,15 @@
-.topbar-body {
+.topbar {
     position: fixed;
     top: 0;
     height: auto;
     width: 100%;
     background-image: linear-gradient(var(--bg-dark), var(--bg));
-    padding: 20px;
+    padding: 10px 20px;
 }
 
-h1 {
+.topbar-title {
     width: fit-content;
     color: var(--fg);
     border-bottom: 1px var(--accent-light) solid;
+    font-size: 50px;
 }
