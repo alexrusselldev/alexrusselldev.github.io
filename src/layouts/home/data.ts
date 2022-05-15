@@ -13,4 +13,8 @@ export const myPages: NavlinkProps[] = [
         label: 'fiverr',
         to: 'https://www.fiverr.com/alexrusselldev',
     },
+    {
+        label: 'portfolio',
+        to: '/portfolio',
+    },
 ]

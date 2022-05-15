@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals'
 import { Home } from './layouts/home'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { WIP } from './layouts/WIP'
+import { Portfolio } from './layouts/portfolio'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
@@ -13,6 +14,7 @@ root.render(
         <BrowserRouter>
             <Routes>
                 <Route index element={<Home />} />
+                <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/wip" element={<WIP />} />
             </Routes>
         </BrowserRouter>
