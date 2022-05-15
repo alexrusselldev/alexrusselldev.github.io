@@ -9,12 +9,18 @@
 
 .link-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 10px;
-    width: 450px;
+    width: auto;
+    height: calc(auto + 100px);
 }
 
 .main-emblem {
-    margin-top: 50px;
+    margin: 50px 0;
+}
+
+.navlink + .navlink {
+    margin-top: 20px;
 }
