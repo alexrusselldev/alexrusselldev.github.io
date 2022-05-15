@@ -13,9 +13,9 @@ export const Emblem = (props: EmblemProps) => {
         <div className={className}>
             <h1 className="tagline-heading">{title}</h1>
             <div className="tagline-container">
-                {tagline.map((char) => {
+                {tagline.map((char, index) => {
                     return (
-                        <p className="tagline-char" key={char}>
+                        <p className="tagline-char" key={index}>
                             {char}
                         </p>
                     )
