@@ -5,17 +5,17 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: var(--background--bg);
+    background-color: var(--bg);
 }
 
 h1 {
     font-size: 10rem;
-    color: var(--foreground--fg);
-    border-bottom: 1px var(--accent--accent) solid;
+    color: var(--fg);
+    border-bottom: 1px var(--accent) solid;
 }
 
 h2 {
     font-weight: 25;
-    color: var(--foreground--fg-dark);
+    color: var(--fg-dark);
     padding-top: 15px;
 }
