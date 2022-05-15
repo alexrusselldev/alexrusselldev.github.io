@@ -1,13 +1,15 @@
-a {
-    text-decoration: none;
-}
-
 .navlink {
-    color: var(--foreground--fg);
     cursor: pointer;
     transition: border-bottom 0.2s;
+    border-bottom: 1px solid rgba(var(--accent-rgb), 0);
 }
 
 .navlink:hover {
-    border-bottom: 1px solid var(--accent--accent);
+    border-bottom: 1px solid rgba(var(--accent-rgb), 1);
+}
+
+.navlink-label {
+    color: var(--fg);
+    text-decoration: none;
+    font-size: 15px;
 }

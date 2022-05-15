@@ -14,11 +14,11 @@ export const Navlink = (props: NavlinkProps) => {
         <div className={className}>
             {to.pathname.charAt(0) === '/' ? (
                 <Link to={to}>
-                    <p>{label}</p>
+                    <p className="navlink-label">{label}</p>
                 </Link>
             ) : (
                 <a href={to.pathname}>
-                    <p>{label}</p>
+                    <p className="navlink-label">{label}</p>
                 </a>
             )}
         </div>

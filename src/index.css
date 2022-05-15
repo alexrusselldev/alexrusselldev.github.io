@@ -1,14 +1,23 @@
 :root {
     /* Color styles */
-    --accent--accent: #f08700;
-    --accent--accent-dark: #b86800;
-    --accent--accent-light: #ffa733;
-    --foreground--fg-dark: #6c899d;
-    --foreground--fg: #8aa1b1;
-    --foreground--fg-light: #b6c4ce;
-    --background--bg-light: #5a5d72;
-    --background--bg: #3f4150;
-    --background--bg-dark: #24252e;
+    --accent: #f08700;
+    --accent-rgb: 240, 135, 0;
+    --accent-dark: #b86800;
+    --accent-dark-rgb: 184, 104, 0;
+    --accent-light: #ffa733;
+    --accent-light-rgb: 255, 167, 51;
+    --fg: #8aa1b1;
+    --fg-rgb: 138, 161, 177;
+    --fg-dark: #6c899d;
+    --fg-dark-rgb: 108, 137, 157;
+    --fg-light: #b6c4ce;
+    --fg-light-rgb: 182, 196, 206;
+    --bg: #3f4150;
+    --bg-rgb: 63, 65, 80;
+    --bg-dark: #24252e;
+    --bg-dark-rgb: 36, 37, 46;
+    --bg-light: #5a5d72;
+    --bg-light-rgb: 90, 93, 114;
 }
 
 * {
@@ -17,7 +26,7 @@
     padding: 0;
 }
 body {
-    background-color: var(--background--bg);
+    background-color: var(--bg);
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
         'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',

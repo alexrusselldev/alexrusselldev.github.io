@@ -1,5 +1,5 @@
 .tagline {
-    color: var(--foreground--fg);
+    color: var(--fg);
 }
 
 .tagline.small {
@@ -23,12 +23,12 @@
     justify-content: space-between;
 }
 
-h1 {
+.tagline-heading {
     font-size: 250%;
-    border-bottom: 1px var(--accent--accent) solid;
+    border-bottom: 1px var(--accent) solid;
 }
 
-p {
-    color: var(--foreground--fg-dark);
+.tagline-char {
+    color: var(--fg-dark);
     font-size: 75%;
 }

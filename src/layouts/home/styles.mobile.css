@@ -1,0 +1,26 @@
+.home-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    width: auto;
+    height: calc(auto + 100px);
+}
+
+.main-emblem {
+    margin: 50px 0;
+}
+
+.navlink + .navlink {
+    margin-top: 20px;
+}
