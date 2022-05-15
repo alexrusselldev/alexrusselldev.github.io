@@ -1,4 +1,4 @@
-.home-container {
+.home-container.mobile {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.link-container {
+.link-container.mobile {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,10 +17,10 @@
     height: calc(auto + 100px);
 }
 
-.main-emblem {
+.main-emblem.mobile {
     margin: 50px 0;
 }
 
-.navlink + .navlink {
+.navlink.mobile + .navlink.mobile {
     margin-top: 20px;
 }
